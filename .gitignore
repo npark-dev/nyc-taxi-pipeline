@@ -1,0 +1,80 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상 환경
+venv/
+env/
+ENV/
+myenv/
+.env
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 로그 파일
+*.log
+logs/
+
+# 데이터 파일 (필요에 따라 조정)
+data/sample/*.csv
+data/sample/*.parquet
+data/sample/*.json
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+
+# 환경 변수 파일 (실제 환경 변수는 공유하지 않음)
+.env
+.env.*
+!.env.example
+
+# Airflow 관련
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+airflow/webserver_config.py
+
+# Docker 관련
+.docker/
+
+# 테스트 관련
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# 기타
+.DS_Store
+Thumbs.ds
